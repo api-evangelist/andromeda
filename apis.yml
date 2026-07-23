@@ -1,8 +1,25 @@
 aid: andromeda
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/andromeda.png
 name: Andromeda
-description: 'Andromeda is a company surfaced as a portfolio company of forerunner-ventures, paradigm
-  and added to the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Andromeda is a robotics company building personalised humanoid robot companions for
+  aged care and assisted living. Its flagship robot, Abi, adapts to each resident''s personality,
+  ability, and language to provide social connection, conversation, and engagement that improves
+  resident mood and wellbeing while extending care-team capacity. Founded by Grace Brown and backed
+  by Forerunner Ventures and Paradigm, Andromeda has deployed Abi across aged-care providers in
+  Australia and the United States (partners include mecwacare and Medical & Aged Care Group) and has
+  been featured by the BBC, CNN, Forbes, and ABC Australia. The company currently publishes a public
+  marketing and news site but no developer platform, API, or public technical documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/andromeda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,6 +34,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Robotics
+- Humanoid Robots
+- Aged Care
+- Assisted Living
+- Elder Care
+- AI Companion
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/andromeda-domain-security.yml
 - type: Website
   url: https://andromedarobotics.ai
+- type: Blog
+  url: https://andromedarobotics.ai/news
+- type: Support
+  url: https://andromedarobotics.ai/contact-us
+- type: SignUp
+  url: https://andromedarobotics.ai/get-an-abi
+- type: PrivacyPolicy
+  url: https://andromedarobotics.ai/privacy-policy-2025
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
